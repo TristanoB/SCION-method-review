@@ -1,0 +1,46 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Understanding of the paper}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{lmo-optimization}{1}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Conditional Gradient}{1}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Feature Learning and norm choice}{2}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{SCION lmo update term}{3}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Hyperparameter Transfer}{3}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Convergence analysis}{3}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Context and novelty}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Classical NN Optimization}{3}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{spectral feature learning theory}{3}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Conditional Gradient Litterature}{3}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Unification}{3}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Other Optimizers}{4}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Optimization and Vision Connection}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Critical Evaluation }{4}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Strenghts}{4}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Limitations}{4}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Implementation}{4}{section.5}\protected@file@percent }
+\bibstyle{plain}
+\bibdata{references}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Appendix}{5}{appendix.A}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:expA_loss}{{1a}{6}{Training and test loss on Fashion-MNIST}{figure.caption.14}{}}
+\newlabel{sub@fig:expA_loss}{{a}{6}{Training and test loss on Fashion-MNIST}{figure.caption.14}{}}
+\newlabel{fig:expA_acc}{{1b}{6}{Test accuracy comparison across optimizers}{figure.caption.14}{}}
+\newlabel{sub@fig:expA_acc}{{b}{6}{Test accuracy comparison across optimizers}{figure.caption.14}{}}
+\newlabel{fig:expA}{{1c}{6}{Experiment A: Performance comparison of uSCION against SGD, Adam and Muon on Fashion-MNIST. uSCION outperforms the other methods. SCION is included in the next page, as I did not manage to have good performance, due to an issue of learning rate tuning (I did not find a working learning rate)}{figure.caption.14}{}}
+\newlabel{sub@fig:expA}{{c}{6}{Experiment A: Performance comparison of uSCION against SGD, Adam and Muon on Fashion-MNIST. uSCION outperforms the other methods. SCION is included in the next page, as I did not manage to have good performance, due to an issue of learning rate tuning (I did not find a working learning rate)}{figure.caption.14}{}}
+\newlabel{fig:expB}{{1d}{6}{Experiment B: Hyperparameter transfer across widths on fashionMNIST. We observe that uSCION maintains stable performance for one given learning rate as width increases, supporting the architecture-aware design principle. In contrast, AdamW require retuning, indicating weaker hyperparameter transfer. Tested for 10 epochs}{figure.caption.14}{}}
+\newlabel{sub@fig:expB}{{d}{6}{Experiment B: Hyperparameter transfer across widths on fashionMNIST. We observe that uSCION maintains stable performance for one given learning rate as width increases, supporting the architecture-aware design principle. In contrast, AdamW require retuning, indicating weaker hyperparameter transfer. Tested for 10 epochs}{figure.caption.14}{}}
+\newlabel{fig:expC_l1}{{1e}{6}{Maximum spectral norm across all weight matrices during training}{figure.caption.14}{}}
+\newlabel{sub@fig:expC_l1}{{e}{6}{Maximum spectral norm across all weight matrices during training}{figure.caption.14}{}}
+\newlabel{fig:expC_middle}{{1f}{6}{Maximum Frobenius norm across all weight matrices during training}{figure.caption.14}{}}
+\newlabel{sub@fig:expC_middle}{{f}{6}{Maximum Frobenius norm across all weight matrices during training}{figure.caption.14}{}}
+\newlabel{fig:expC_last}{{1g}{6}{Test accuracy evolution}{figure.caption.14}{}}
+\newlabel{sub@fig:expC_last}{{g}{6}{Test accuracy evolution}{figure.caption.14}{}}
+\newlabel{fig:expC}{{1h}{6}{Experiment C — Norm control under SCION vs uSCION. We compare the constrained variant (SCION) and the unconstrained variant (uSCION) on Fashion-MNIST. SCION explicitly enforces a norm-ball constraint through the conditional gradient update, resulting in stable operator norms throughout training. In contrast, uSCION allows freer norm growth. The spectral norm plot highlights the geometry induced by the operator-norm LMO, while the Frobenius norm provides a complementary scale-sensitive view. These results empirically illustrate the theoretical norm-control guarantees required for spectral feature learning}{figure.caption.14}{}}
+\newlabel{sub@fig:expC}{{h}{6}{Experiment C — Norm control under SCION vs uSCION. We compare the constrained variant (SCION) and the unconstrained variant (uSCION) on Fashion-MNIST. SCION explicitly enforces a norm-ball constraint through the conditional gradient update, resulting in stable operator norms throughout training. In contrast, uSCION allows freer norm growth. The spectral norm plot highlights the geometry induced by the operator-norm LMO, while the Frobenius norm provides a complementary scale-sensitive view. These results empirically illustrate the theoretical norm-control guarantees required for spectral feature learning}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Empirical evaluation of SCION and uSCION. Experiment A compares optimization performance on Fashion-MNIST. Experiment B studies hyperparameter transfer across widths on fashionMNIST. Experiment C analyzes layer-wise operator norm dynamics, highlighting the geometry-enforcing effect of the constrained formulation.}}{6}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:global_results}{{1}{6}{Empirical evaluation of SCION and uSCION. Experiment A compares optimization performance on Fashion-MNIST. Experiment B studies hyperparameter transfer across widths on fashionMNIST. Experiment C analyzes layer-wise operator norm dynamics, highlighting the geometry-enforcing effect of the constrained formulation}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Experiment A - bis : Performance comparison of uSCION and SCION against SGD, Adam and Muon on Fashion-MNIST. SCION does not converge, after having test a lot of learning rate parameters. This might be due to an issue in my implementation}}{7}{figure.caption.15}\protected@file@percent }
+\gdef \@abspage@last{7}

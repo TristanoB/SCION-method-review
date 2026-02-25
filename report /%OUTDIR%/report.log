@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.3)  17 FEB 2026 19:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.3)  24 FEB 2026 20:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/tristan/Documents/dev/01_Cours_CS/06_ovo/SCION-method-review-/report /report.tex"
-(/Users/tristan/Documents/dev/01_Cours_CS/06_ovo/SCION-method-review-/report /report.tex
+**"/Users/tristan/Documents/dev/01_Cours_CS/06_ovo/SCION-method-review/report /report.tex"
+(/Users/tristan/Documents/dev/01_Cours_CS/06_ovo/SCION-method-review/report /report.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -313,31 +313,62 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen177
 \Gin@req@width=\dimen178
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen179
+\captionmargin=\dimen180
+\caption@leftmargin=\dimen181
+\caption@rightmargin=\dimen182
+\caption@width=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count305
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count306
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count307
+\float@exts=\toks29
+\float@box=\box55
+\@float@everytoks=\toks30
+\@floatcapt=\box56
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count303
-\l__pdf_internal_box=\box55
-) (./report.aux)
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box57
+) (%OUTDIR%/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -348,14 +379,14 @@ LaTeX Font Info:    ... okay on input line 29.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* v-part:(T,H,B)=(14.22636pt, 695.38536pt, 85.35826pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=443.57848pt
-* \textheight=624.25346pt
+* \textheight=695.38536pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-23.91173pt
+* \topmargin=-95.04362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -373,25 +404,25 @@ LaTeX Font Info:    ... okay on input line 29.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 29.
-(./report.out) (./report.out)
+Package hyperref Info: Link coloring OFF on input line 40.
+(%OUTDIR%/report.out) (%OUTDIR%/report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 29.
-Package microtype Info: Applying patch `item' on input line 29.
-Package microtype Info: Applying patch `toc' on input line 29.
-Package microtype Info: Applying patch `eqnum' on input line 29.
-Package microtype Info: Applying patch `footnote' on input line 29.
-Package microtype Info: Applying patch `verbatim' on input line 29.
-LaTeX Info: Redefining \microtypesetup on input line 29.
+LaTeX Info: Redefining \microtypecontext on input line 40.
+Package microtype Info: Applying patch `item' on input line 40.
+Package microtype Info: Applying patch `toc' on input line 40.
+Package microtype Info: Applying patch `eqnum' on input line 40.
+Package microtype Info: Applying patch `footnote' on input line 40.
+Package microtype Info: Applying patch `verbatim' on input line 40.
+LaTeX Info: Redefining \microtypesetup on input line 40.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 29.
+LaTeX Info: Redefining \showhyphens on input line 40.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -399,30 +430,33 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen179
-\scratchbox=\box56
-\nofMPsegments=\count305
-\nofMParguments=\count306
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen180
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count309
+\scratchdimen=\dimen187
+\scratchbox=\box58
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen188
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -433,12 +467,68 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-No file report.bbl.
-
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./report.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[2]
+
+[3]
+
+[4]
+No file report.bbl.
+<../images/expA_1.png, id=78, 420.8523pt x 276.7941pt>
+File: ../images/expA_1.png Graphic file (type png)
+<use ../images/expA_1.png>
+Package pdftex.def Info: ../images/expA_1.png  used on input line 213.
+(pdftex.def)             Requested size: 212.91577pt x 140.03543pt.
+<../images/expA_2.png, id=80, 420.8523pt x 276.7941pt>
+File: ../images/expA_2.png Graphic file (type png)
+<use ../images/expA_2.png>
+Package pdftex.def Info: ../images/expA_2.png  used on input line 220.
+(pdftex.def)             Requested size: 212.91577pt x 140.03543pt.
+<../images/expB.png, id=81, 440.1243pt x 277.2759pt>
+File: ../images/expB.png Graphic file (type png)
+<use ../images/expB.png>
+Package pdftex.def Info: ../images/expB.png  used on input line 238.
+(pdftex.def)             Requested size: 266.14978pt x 167.68262pt.
+<../images/expC_1.png, id=82, 421.0932pt x 277.035pt>
+File: ../images/expC_1.png Graphic file (type png)
+<use ../images/expC_1.png>
+Package pdftex.def Info: ../images/expC_1.png  used on input line 256.
+(pdftex.def)             Requested size: 141.94835pt x 93.38748pt.
+<../images/expC_2.png, id=83, 420.8523pt x 277.035pt>
+File: ../images/expC_2.png Graphic file (type png)
+<use ../images/expC_2.png>
+Package pdftex.def Info: ../images/expC_2.png  used on input line 263.
+(pdftex.def)             Requested size: 141.94835pt x 93.4382pt.
+<../images/expC_3.png, id=84, 421.0932pt x 276.7941pt>
+File: ../images/expC_3.png Graphic file (type png)
+<use ../images/expC_3.png>
+Package pdftex.def Info: ../images/expC_3.png  used on input line 270.
+(pdftex.def)             Requested size: 141.94835pt x 93.30627pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[5]
+<../images/expA_1_scion.png, id=89, 420.8523pt x 276.7941pt>
+File: ../images/expA_1_scion.png Graphic file (type png)
+<use ../images/expA_1_scion.png>
+Package pdftex.def Info: ../images/expA_1_scion.png  used on input line 298.
+(pdftex.def)             Requested size: 212.91577pt x 140.03543pt.
+<../images/expA_2_scion.png, id=90, 420.8523pt x 276.7941pt>
+File: ../images/expA_2_scion.png Graphic file (type png)
+<use ../images/expA_2_scion.png>
+Package pdftex.def Info: ../images/expA_2_scion.png  used on input line 305.
+(pdftex.def)             Requested size: 212.91577pt x 140.03543pt.
+
+
+[6 <../images/expA_1.png> <../images/expA_2.png> <../images/expB.png> <../images/expC_1.png> <../images/expC_2.png> <../images/expC_3.png>]
+
+[7 <../images/expA_1_scion.png> <../images/expA_2_scion.png>] (%OUTDIR%/report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -447,18 +537,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: C2493FA8A2AF9463CEE1517810A65FB4;894.
  ) 
 Here is how much of TeX's memory you used:
- 12962 strings out of 473190
- 200835 string characters out of 5715801
- 638077 words of memory out of 5000000
- 36008 multiletter control sequences out of 15000+600000
- 570362 words of font info for 82 fonts, out of 8000000 for 9000
+ 14694 strings out of 473190
+ 233369 string characters out of 5715801
+ 678969 words of memory out of 5000000
+ 37588 multiletter control sequences out of 15000+600000
+ 577120 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,1082b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (1 page, 115362 bytes).
+ 75i,10n,79p,1081b,661s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on %OUTDIR%/report.pdf (7 pages, 1205805 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 21041 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 33369 words of extra memory for PDF output out of 35830 (max. 10000000)
 
